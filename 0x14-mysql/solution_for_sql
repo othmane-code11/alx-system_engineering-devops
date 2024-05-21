@@ -20,7 +20,7 @@ USE tyrell_corp;
 # this just for check
 SELECT * FROM nexus6;
 SHOW GRANTS FOR 'holberton_user'@'localhost';
-# task 3
+# task 3 we do this for web01
 
 CREATE USER 'replica_user'@'%' IDENTIFIED BY "projectcorrection280hbtn";
 GRANT REPLICATION SLAVE ON *.* TO 'replica_user'@'%';
